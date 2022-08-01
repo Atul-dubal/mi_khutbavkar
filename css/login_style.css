@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: raleway;
+  font-weight:bold;
+}
+body{
+    background:black;
+   background: url("/assest/system_img/background.jpeg");
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+table{
+    width:100%;
+    font-size:13px;
+}
+th{
+  border-right:1px solid white; 
+}
+a{
+  color: white;
+  text-decoration:none;
+}
+
+form{
+  margin:auto;
+  padding:20px;
+  width:83%;
+  border:2px solid white;
+  border-radius:10px;
+  box-shadow:4px 4px 4px white;
+}
+form p{
+    text-align:center;
+    color: white;
+}
+#error{
+    text-align:center;
+    
+    margin-bottom:10px;
+    padding:5px;
+    background:pink;
+    opacity:0.7;
+    border-radius:5px;
+}
+.error{
+  color:red;
+  font-size:15px;  
+}
+label{
+    color:white;
+    font-style:bold;
+}
+input{
+    font-family:raleway;
+    color:black;
+    text-align:center;
+    width:95%;
+    height:30px;
+    border:1px solid white;
+    border-radius:5px;
+    margin:10px;
+    background: white;
+    opacity:0.7;
+}
+input:hover{
+    border:2px solid orange;
+}
+#submit{
+    color:white;
+    width:100px;
+    height:30px;
+    background: darkblue;
+    border-radius:5px;
+    border:1px solid black;
+}
+#submit:hover{
+    background:green;
+    border:2px solid orange;
+}
+#admin,#footer-area{
+    background: black ;
+    color:white;
+}
+#admin_img{
+    width:50px;
+    border:4px solid white ;
+    border-radius:5px;
+    box-shadow:2px 2px 2px solid red;
+}
+#footer-area{
+    opacity:0.5;
+    text-align:center;
+    color: lightgrey;
+    font-size:13px;
+}

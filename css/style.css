@@ -1,0 +1,85 @@
+*{
+   margin:0;
+   padding:0;
+   text-align: center;
+   font-weight:bold;
+   font-family:raleway;
+}
+body{
+   background: url("/assest/system_img/background.jpeg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+img{
+    width:50px;
+}
+
+table{
+    font-size:11px;
+    width:100%;
+    color: black;
+}
+th{
+   width:25%;
+   height:15px;
+   border:1px solid black; 
+}
+th a {
+   color: black;
+   text-decoration:none;
+}
+#login a,#registration a{
+   text-decoration:none; 
+   color:white;
+}
+
+#cre-btn{
+   text-align:center;
+}
+button {
+  font-family:fantasy;
+  text-decoration:none;
+  background:blue;
+  color:white;
+}
+.btn a{
+    text-decoration:none;
+    color:white;
+}
+.btn{
+    background:darkblue; 
+   width:100px;
+   height:40px;
+   border-radius:5px;
+   border:1px solid black;
+   
+}
+.btn:hover {
+   background: green;
+   border:2px solid orange;
+}
+#login{
+  width:120px;  
+  margin:20px;
+  color: Black;  
+}
+#registration{
+    width:120px;
+    margin:20px;
+}
+#banner{
+   width:95%;
+   margin:auto;
+   border:1px solid black;
+   box-shadow:2px 2px 2px black;
+    
+}
+#footer-area{
+   padding:2px;
+   color: grey;
+   text-align:center;
+   opacity:0.6;
+}
+#footer-area #p2{
+    margin:0px;
+}
